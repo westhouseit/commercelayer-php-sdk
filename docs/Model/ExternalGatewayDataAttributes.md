@@ -1,0 +1,20 @@
+# # ExternalGatewayDataAttributes
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**name** | **string** | The payment gateway&#39;s internal name. | [optional]
+**id** | **string** | Unique identifier for the resource (hash). | [optional]
+**created_at** | **string** | Time at which the resource was created. | [optional]
+**updated_at** | **string** | Time at which the resource was last updated. | [optional]
+**reference** | **string** | A string that you can use to add any external identifier to the resource. This can be useful for integrating the resource to an external system, like an ERP, a marketing tool, a CRM, or whatever. | [optional]
+**reference_origin** | **string** | Any identifier of the third party system that defines the reference code | [optional]
+**metadata** | **object** | Set of key-value pairs that you can attach to the resource. This can be useful for storing additional information about the resource in a structured format. | [optional]
+**shared_secret** | **string** | The shared secret used to sign gateway payloads. | [optional]
+**authorize_url** | **string** | The endpoint used by the external gateway to authorize payments. | [optional]
+**capture_url** | **string** | The endpoint used by the external gateway to capture payments. | [optional]
+**void_url** | **string** | The endpoint used by the external gateway to void payments. | [optional]
+**refund_url** | **string** | The endpoint used by the external gateway to refund payments. | [optional]
+
+[[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)

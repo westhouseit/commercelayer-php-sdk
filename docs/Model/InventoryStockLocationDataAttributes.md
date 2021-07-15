@@ -1,0 +1,16 @@
+# # InventoryStockLocationDataAttributes
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**priority** | **int** | The stock location priority within the associated invetory model. | [optional]
+**on_hold** | **bool** | Indicates if the shipment should be put on hold if fulfilled from the associated stock location. This is useful to manage use cases like back-orders, pre-orders or personalized orders that need to be customized before being fulfilled. | [optional]
+**id** | **string** | Unique identifier for the resource (hash). | [optional]
+**created_at** | **string** | Time at which the resource was created. | [optional]
+**updated_at** | **string** | Time at which the resource was last updated. | [optional]
+**reference** | **string** | A string that you can use to add any external identifier to the resource. This can be useful for integrating the resource to an external system, like an ERP, a marketing tool, a CRM, or whatever. | [optional]
+**reference_origin** | **string** | Any identifier of the third party system that defines the reference code | [optional]
+**metadata** | **object** | Set of key-value pairs that you can attach to the resource. This can be useful for storing additional information about the resource in a structured format. | [optional]
+
+[[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)
